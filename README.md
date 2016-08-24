@@ -4,10 +4,10 @@ Quandl.com is a collection of thousads of finance and economic databases. Please
 This modul provides an API to quandl.com. You can get an api key for free by signing up with quandl.com. You can find the api key 
 in the account settings.
 
-# docs/quandl.py :
-This modul handles the quandle.com API
+docs/quandl.py :
+This modul handles the quandle.com API. See modul for further documentation. 
 
-# docs/AAII.py
+docs/AAII.py:
 This modul analyzes the sentiment data provided by the Ammerican Association of Individual Investors ("AAII") which collects sentiment data from its members on 
 a weekly basis in regards to the 6 months stock market outlook. The modul analyzes whether there is a connection between investor sentiment
 and future performance of the S&P 500. The S&P 500 performance is measured in the relative change over 6 months. 
