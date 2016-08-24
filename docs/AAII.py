@@ -1,6 +1,6 @@
 
-""" This modul analyzes the sentiment data provided by the Ammerican Association of Individual Investors ("AAII") which collects sentiment data from its members on 
-a weekly basis in regards to the 6 months stock market outlook. The modul analyzes whether there is a connection between investor sentiment
+""" This module analyzes the sentiment data provided by the American Association of Individual Investors ("AAII") which collects sentiment data from its members on 
+a weekly basis in regards to the 6 months’ stock market outlook. The module analyzes whether there is a connection between investor sentiment
 and future performance of the S&P 500. The S&P 500 performance is measured in the relative change over 6 months. 
 The AAII provides three types of sentiment namely bullish, neutral, and bearish such that bullish + neutral + bearish = 1.
 """
@@ -17,8 +17,8 @@ from matplotlib import pyplot
 
 def main(col= 1, deg = 1):
     """ Main function which is called at the end of this file. Takes two optional int parameters. col is the column on which 
-       the regression is to be performed, for example col = 1 correspondes to the bullish investors; deg determines the degree of the polynomial regression function. 
-       Check the data.col atribute for a list of all column names. """
+       the regression is to be performed, for example col = 1 corresponds to the bullish investors; deg determines the degree of the polynomial regression function. 
+       Check the data.col attribute for a list of all column names. """
 
     api_key = 'pqxsHzei5fGpxxCZ-yKH'
     aaii = quandl.dataset('AAII','AAII_SENTIMENT',api_key)
