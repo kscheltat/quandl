@@ -4,7 +4,7 @@ Quandl.com is a collection of thousads of finance and economic databases. Please
 This modul provides an API to quandl.com. You can get an api key for free by signing up with quandl.com. You can find the api key 
 in the account settings.
 
-docs/quandl.py :
+docs/quandl.py : \n
 This modul handles the quandle.com API. See modul for further documentation. 
 
 docs/AAII.py:
